@@ -1,4 +1,4 @@
-# Neetcode Goal Roadmap
+# Neetcode Goal Roadmap.
 
 Here is the markdown file for the entire roadmap formatted using **Template 3: Tabular Format**:
 
