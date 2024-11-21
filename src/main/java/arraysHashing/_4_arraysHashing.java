@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.List;
 
 
-public class arraysHashing {
+public class _4_arraysHashing {
         public static String getBit(String str) {
             int [] arr = new int[26];
             for (char c : str.toCharArray()) {
@@ -19,7 +19,7 @@ public class arraysHashing {
         public static List<List<String>> groupAnagrams(String[] strs) {
             HashMap<String, List<String>> firstMap = new HashMap<String, List<String>>();
             for (String str : strs) {
-                String key = arraysHashing.getBit(str);
+                String key = _4_arraysHashing.getBit(str);
                 System.out.println(key);
                 if (firstMap.containsKey(key)) {
                     List<String> list = firstMap.get(key);
@@ -38,10 +38,10 @@ public class arraysHashing {
         char c = 'b';
         String[] strings = {"bdddddddddd","bbbbbbbbbbc"};
 
-        System.out.println( arraysHashing.groupAnagrams(strings) );
-        System.out.println( arraysHashing.getBit("bbbbbbbbbbc") );
-        System.out.println( arraysHashing.getBit("bdddddddddd") );
-        System.out.println( arraysHashing.getBit("c") );
+        System.out.println( _4_arraysHashing.groupAnagrams(strings) );
+        System.out.println( _4_arraysHashing.getBit("bbbbbbbbbbc") );
+        System.out.println( _4_arraysHashing.getBit("bdddddddddd") );
+        System.out.println( _4_arraysHashing.getBit("c") );
 
         ;
     }
