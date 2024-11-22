@@ -2,6 +2,9 @@
 
 Here is the markdown file for the entire roadmap formatted using **Template 3: Tabular Format**:
 
+# Score 
+## => (6)
+
 # Goal Roadmap
 
 ---
